@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    padding:20px 0px;
+    border-bottom:2px solid black;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50pt;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+.songs {
+    padding:10px 0px;
+    color: #ece9ea;
+
+}
+
+.space {
+    padding: 0px 10px;
+    align-items: center;
+}
+
+.drop {
+    padding:20px 0px;
+    text-align: center;
+}
+
+.addForm {
+    padding-top: 50px;
+    color:white;
+}
+
+.searchForm {
+    padding: 40px 0 20px;
+}
+
+.add {
+    padding: 5px 5px;
+    margin: 10px 0;
+}
+.add2 {
+    padding: 5px 5px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.logout {
+    margin-top: 100px;
+}
+
+.player {
+    margin: 50px 0px;
+}
+.selection {
+    padding: 40px;
+}
+.forWhen {
+    padding-right: 15px;
+    color: #ece9ea;
+}
+.random {
+    margin-left: 5px;
+}
+
+/* select {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    background: transparent;
+    color: #ece9ea;
+} */
