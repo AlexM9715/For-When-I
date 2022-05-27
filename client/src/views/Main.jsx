@@ -4,7 +4,7 @@ import DisplayDrop from '../components/DisplayDrop'
 const Main = () => {
 
     const CLIENT_ID ="dff196480a324944befafbbdfea1f976"
-    const REDIRECT_URI = "http://54.183.177.159"
+    const REDIRECT_URI = "http://54.183.177.159:3000"
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
     const RESPONSE_TYPE = "token"
     const SCOPES = ["streaming","user-read-email", "user-read-private", "user-read-playback-state", "user-modify-playback-state"]
