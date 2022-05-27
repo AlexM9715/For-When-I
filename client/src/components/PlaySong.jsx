@@ -5,10 +5,11 @@ import SpotifyPlayer from 'react-spotify-web-playback'
 const DisplaySong = ({ songURI }) => {
 
     const [token] = useState(localStorage.getItem('token'))
-    const [refresh, setRefresh] = useState(true)
+    const [currSong, setCurrSong] = useState(null)
 
     useEffect(() => {
-        setRefresh(!refresh)
+        setCurrSong(null)
+        setCurrSong(songURI)
     }, [songURI])
 
     return (
@@ -18,7 +19,7 @@ const DisplaySong = ({ songURI }) => {
                 <div className="contain">
                     <SpotifyPlayer
                         token={token}
-                        uris={songURI}
+                        uris={currSong}
                         autoPlay={true}
                         initialVolume={.25}
                         styles={{
