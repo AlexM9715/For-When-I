@@ -24,13 +24,16 @@ const DisplayDrop = () => {
                 <form onSubmit={getRandom}>
                     <div className="customSelect">
                         <select value={category} onChange={e => setCategory(e.target.value)}>
-                            <option hidden>----Select Option----</option>
+                            <option className="options" hidden>----Select Option----</option>
                             <option value="dancing">feel like dancing</option>
                             <option value="happy">am feeling happy</option>
                             <option value="crying">feel like crying</option>
                             <option value="vibing">feel like vibing</option>
                             <option value="gym">feel like getting PUMPED</option>
                             <option value="rock">feel like rocking out</option>
+                            <option value="throwback">am feeling nostalgic</option>
+                            <option value="rave">feel like raving</option>
+                            <option value="code">want to code</option>
                         </select>
                         <span className="customArrow"></span>
                         <button className="random btn btn-outline-light btn-sm">Get Random Song</button>

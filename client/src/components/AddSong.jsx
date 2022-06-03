@@ -65,7 +65,7 @@ const AddSong = () => {
                         <label>Song</label>
                         <small class="form-text text-muted">This will autofill. Do NOT type.</small>
                         <input type="text" value={songID}
-                            onChange={e => setSongID(e.target.value)}/>
+                            onChange={e => setSongID(e.target.value)} readOnly/>
                     </div>
                     <div className="d-flex flex-column">
                         <label>Category</label>
@@ -77,6 +77,9 @@ const AddSong = () => {
                             <option value="vibing">feel like vibing</option>
                             <option value="gym">feel like getting PUMPED</option>
                             <option value="rock">feel like rocking out</option>
+                            <option value="throwback">am feeling nostalgic</option>
+                            <option value="rave">feel like raving</option>
+                            <option value="code">want to code</option>
                         </select>
                     </div>
                     <button className="btn btn-outline-primary btn-sm add2">Add Song</button>
